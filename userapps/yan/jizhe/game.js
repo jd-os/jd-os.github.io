@@ -1,8 +1,4 @@
 /*
-author cssbird
-www.cssbird.com
-2014-11-17
-last update 2014-11-19
 */
 function ___processStateChange() {
     if (req.readyState == 4) { // Complete
@@ -26,10 +22,10 @@ function __loadJson(){
 //
 function __init_wx(){
     document.addEventListener('WeixinJSBridgeReady', function onBridgeReady() {
-        shareLink="http://zt.bjnews.com.cn/microMessager/game/itdaka/";
+        shareLink="http://www.jd-os.com/";
         shareTitle=document.title;
         //shareIcon="http://"+window.location.host+"/res/logo.png";
-        shareIcon="http://zt.bjnews.com.cn/microMessager/game/itdaka/res/who.jpg";
+        shareIcon="http://www.jd-os.com/res/icon.jpg";
         // 发送给好友
         WeixinJSBridge.on('menu:share:appmessage', function (argv) {
             WeixinJSBridge.invoke('sendAppMessage', {
