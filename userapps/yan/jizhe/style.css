@@ -53,7 +53,7 @@ body{
     background-position: center 20%;
     background-repeat: no-repeat;
     
-    -webkit-animation: welcome 2s ease 100;
+    /*-webkit-animation: welcome 2s ease 100;*/
 }
 #game_over_image,#you_win_image{
     position: absolute;
@@ -92,19 +92,19 @@ body{
     left: 50%;
 }
 #facepan img{
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-radius: 100px;
     border: solid 2px rgba(255,255,255,1);
     margin: -2px;
     position: absolute;
     top: 0px;
-    left: -50px;
+    left: -75px;
     box-shadow: 0 0 50px 10px rgba(255,255,255,0.5);
 }
 #names{
     position: absolute;
-    top: 180px;
+    top: 250px;
     left: 0px;
     right: 0px;
     bottom: 0px;
@@ -343,4 +343,8 @@ body{
 }
 @media screen and (max-width: 640px){
     
+}
+#canvas{
+    background: url(res/canvas.png);
+    background-size: 100% 100%;
 }

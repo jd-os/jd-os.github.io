@@ -107,7 +107,7 @@ function ____next(){
             var facename=document.createElement("div");
             facename.setAttribute("class","name");
             facename.setAttribute("value",arr[i].value);
-            facename.addEventListener("touchstart",function(){
+            facename.addEventListener("click",function(){
                 _____check(this);
             });
             facename.innerHTML=arr[i].name;
@@ -161,9 +161,9 @@ function ___gameover(){
     document.querySelector("#gameover").style.display="block";
 }
 function __bind(){
-    document.querySelector("#share_button").addEventListener("touchstart",___share,false);
-    document.querySelector("#restart_button").addEventListener("touchstart",___restart,false);
-    document.querySelector("#start_button").addEventListener("touchstart",___restart,false);
+    document.querySelector("#share_button").addEventListener("click",___share,false);
+    document.querySelector("#restart_button").addEventListener("click",___restart,false);
+    document.querySelector("#start_button").addEventListener("click",___restart,false);
 }
 function __data_init(){
   
@@ -302,7 +302,7 @@ function __data_init(){
           {"from":81,"to":108,"msg":"祖师爷，失敬失敬，你认识的媒体人连起来可以绕地球一圈！"}
       ],
       "aboutUs": [
-        "url","http://www.bjnews.com.cn/"
+        "url","http://www.jd-os.com/yan"
       ]
     }
   all=data.faces.length;
